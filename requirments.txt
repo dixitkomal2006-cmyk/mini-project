@@ -1,0 +1,35 @@
+# =============================================================================
+# VQA Project - Python Dependencies
+# Visual Question Answering Mini Project
+# =============================================================================
+# Install all dependencies using:
+#   pip install -r requirements.txt
+# =============================================================================
+
+# --- Core Web Framework ---
+streamlit>=1.32.0               # Interactive web app framework
+
+# --- Machine Learning & Deep Learning ---
+torch>=2.0.0                    # PyTorch: deep learning backend
+torchvision>=0.15.0             # Image transformations for vision models
+
+# --- Hugging Face Ecosystem ---
+transformers>=4.38.0            # Pre-trained models (BLIP, ViLT, etc.)
+accelerate>=0.27.0              # Optimized model loading and inference
+
+# --- Image Processing ---
+Pillow>=10.0.0                  # PIL: image loading, resizing, conversion
+
+# --- Scientific Computing ---
+numpy>=1.24.0                   # Array operations (dependency of torch)
+
+# --- Optional: Faster Model Loading ---
+safetensors>=0.4.0              # Fast & safe model weight loading
+
+# =============================================================================
+# Notes:
+# - torch installation may vary by system (CPU vs CUDA GPU).
+#   For CUDA GPU support, visit: https://pytorch.org/get-started/locally/
+# - On first run, BLIP model (~900MB) will be downloaded automatically.
+# - Python 3.8+ required.
+# =============================================================================
